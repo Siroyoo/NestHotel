@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="./css/reset.css"/> <!-- css 리셋 -->
         <link rel="stylesheet" href="./css/layout.css"/>  <!-- layout css -->  
         <link rel="stylesheet" href="./css/room.css"/>  <!-- layout css -->  
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
         <title>
             Nest Hotel에 오신 것을 환영합니다.
         </title>
@@ -16,8 +19,8 @@
 
     </style>
     <body>
-        <div class="container">
-            <header>
+        <div class="box-border">
+            <header >
                 <div class="logo">
                     <a href="index.html" >
                         <img src="image/logo.png" alt="NestHotle 로고">
@@ -82,115 +85,131 @@
                     <h1>객&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;실</h1>
                 </div>
                 <div class="rooms">
-                    <div class="room-box">
-                        <div class="room-img">
-                            <img src="image/room/room3.jpg"></img>
-                        </div>
-                        <div class="room-text">
-                            <p>2인 스텐다드 룸 ( standard )</p>
-                            <p>
-                                투숙 인원 : 2인 ( 최대 3인까지 가능 )
-                            </p>
-                            <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
-                            <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
-                        </div>
+                    <div class="room-box border-none">
+                        <a href="room-info.html" class="no-underline">
+                            <div class="room-img">
+                                <img src="image/room/room3.jpg"></img>
+                            </div>
+                            <div class="room-text">
+                                <p>2인 스텐다드 룸 ( standard )</p>
+                                <p>
+                                    투숙 인원 : 2인 ( 최대 3인까지 가능 )
+                                </p>
+                                <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
+                                <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
+                            </div>
+                        </a> 
                     </div>
-                    <div class="room-box">
-                        <div class="room-img">
-                            <img src="image/room/room3.jpg"></img>
-                        </div>
-                        <div class="room-text">
-                            <p>2인 스텐다드 룸 ( standard )</p>
-                            <p>
-                                투숙 인원 : 2인 ( 최대 3인까지 가능 )
-                            </p>
-                            <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
-                            <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rooms">
-                    <div class="room-box">
-                        <div class="room-img">
-                            <img src="image/room/room3.jpg"></img>
-                        </div>
-                        <div class="room-text">
-                            <p>2인 스텐다드 룸 ( standard )</p>
-                            <p>
-                                투숙 인원 : 2인 ( 최대 3인까지 가능 )
-                            </p>
-                            <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
-                            <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
-                        </div>
-                    </div>
-                    <div class="room-box">
-                        <div class="room-img">
-                            <img src="image/room/room3.jpg"></img>
-                        </div>
-                        <div class="room-text">
-                            <p>2인 스텐다드 룸 ( standard )</p>
-                            <p>
-                                투숙 인원 : 2인 ( 최대 3인까지 가능 )
-                            </p>
-                            <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
-                            <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
-                        </div>
+                    <div class="room-box border-none">
+                        <a href="room-info.html">
+                            <div class="room-img">
+                                <img src="image/room/room3.jpg"></img>
+                            </div>
+                            <div class="room-text">
+                                <p>2인 스텐다드 룸 ( standard )</p>
+                                <p>
+                                    투숙 인원 : 2인 ( 최대 3인까지 가능 )
+                                </p>
+                                <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
+                                <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="rooms">
-                    <div class="room-box">
-                        <div class="room-img">
-                            <img src="image/room/room3.jpg"></img>
-                        </div>
-                        <div class="room-text">
-                            <p>2인 스텐다드 룸 ( standard )</p>
-                            <p>
-                                투숙 인원 : 2인 ( 최대 3인까지 가능 )
-                            </p>
-                            <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
-                            <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
-                        </div>
+                    <div class="room-box border-none">
+                        <a href="room-info.html">
+                            <div class="room-img">
+                                <img src="image/room/room3.jpg"></img>
+                            </div>
+                            <div class="room-text">
+                                <p>2인 스텐다드 룸 ( standard )</p>
+                                <p>
+                                    투숙 인원 : 2인 ( 최대 3인까지 가능 )
+                                </p>
+                                <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
+                                <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
+                            </div>
+                        </a> 
                     </div>
-                    <div class="room-box">
-                        <div class="room-img">
-                            <img src="image/room/room3.jpg"></img>
-                        </div>
-                        <div class="room-text">
-                            <p>2인 스텐다드 룸 ( standard )</p>
-                            <p>
-                                투숙 인원 : 2인 ( 최대 3인까지 가능 )
-                            </p>
-                            <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
-                            <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
-                        </div>
+                    <div class="room-box border-none">
+                        <a href="room-info.html">
+                            <div class="room-img">
+                                <img src="image/room/room3.jpg"></img>
+                            </div>
+                            <div class="room-text">
+                                <p>2인 스텐다드 룸 ( standard )</p>
+                                <p>
+                                    투숙 인원 : 2인 ( 최대 3인까지 가능 )
+                                </p>
+                                <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
+                                <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="rooms">
-                    <div class="room-box">
-                        <div class="room-img">
-                            <img src="image/room/room3.jpg"></img>
-                        </div>
-                        <div class="room-text">
-                            <p>2인 스텐다드 룸 ( standard )</p>
-                            <p>
-                                투숙 인원 : 2인 ( 최대 3인까지 가능 )
-                            </p>
-                            <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
-                            <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
-                        </div>
+                    <div class="room-box border-none">
+                        <a href="room-info.html">
+                            <div class="room-img">
+                                <img src="image/room/room3.jpg"></img>
+                            </div>
+                            <div class="room-text">
+                                <p>2인 스텐다드 룸 ( standard )</p>
+                                <p>
+                                    투숙 인원 : 2인 ( 최대 3인까지 가능 )
+                                </p>
+                                <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
+                                <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
+                            </div>
+                        </a> 
                     </div>
-                    <div class="room-box">
-                        <div class="room-img">
-                            <img src="image/room/room3.jpg"></img>
-                        </div>
-                        <div class="room-text">
-                            <p>2인 스텐다드 룸 ( standard )</p>
-                            <p>
-                                투숙 인원 : 2인 ( 최대 3인까지 가능 )
-                            </p>
-                            <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
-                            <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
-                        </div>
+                    <div class="room-box border-none">
+                        <a href="room-info.html">
+                            <div class="room-img">
+                                <img src="image/room/room3.jpg"></img>
+                            </div>
+                            <div class="room-text">
+                                <p>2인 스텐다드 룸 ( standard )</p>
+                                <p>
+                                    투숙 인원 : 2인 ( 최대 3인까지 가능 )
+                                </p>
+                                <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
+                                <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="rooms">
+                    <div class="room-box border-none">
+                        <a href="room-info.html">
+                            <div class="room-img">
+                                <img src="image/room/room3.jpg"></img>
+                            </div>
+                            <div class="room-text">
+                                <p>2인 스텐다드 룸 ( standard )</p>
+                                <p>
+                                    투숙 인원 : 2인 ( 최대 3인까지 가능 )
+                                </p>
+                                <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
+                                <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
+                            </div>
+                        </a> 
+                    </div>
+                    <div class="room-box border-none">
+                        <a href="room-info.html">
+                            <div class="room-img">
+                                <img src="image/room/room3.jpg"></img>
+                            </div>
+                            <div class="room-text">
+                                <p>2인 스텐다드 룸 ( standard )</p>
+                                <p>
+                                    투숙 인원 : 2인 ( 최대 3인까지 가능 )
+                                </p>
+                                <small class="helper">※어린아이는 포함되지 않습니다.(만 5세 미만)</small>
+                                <p>침대 : 더블/트윈베드&nbsp;&nbsp;&nbsp;&nbsp;체크인/체크아웃 : 14:00/11:30</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="room-bt">
