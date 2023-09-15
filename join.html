@@ -6,7 +6,6 @@
         <meta name="description" content="HTML meta tag page">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/reset.css"/> <!-- css 리셋 -->
-        <link rel="stylesheet" href="./css/about.css"/>
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
         <link href="tailwind.config.js" rel="stylesheet">
@@ -69,72 +68,39 @@
                     </div>
                 </div>
             </header>
-            <div class="content">
-                <div class="item">
-                    <div class="about-img">
-                        <img src="image/about/about 1.jpg">
-                    </div>
-                    <div class="about-text">
-                        <p>
-                            Nest Hotel은
-                        </p>
-                        <p>
-                            숲속 한 가운데 있는
-                        </p>
-                        <p>
-                            자연 친화적 호텔 입니다.
-                        </p>
+            <div class="bg-lime-50">
+                <div class="w-full h-28 flex-col justify-center items-center">
+                    <img src="image/banner/banner 1.jpg" alt="회원가입" class="object-cover w-full h-full">
+                </div>
+                <div class="flex w-full h-auto flex-col justify-center items-center pt-5 pb-5 bg-lime-50 ">
+                    <h1 class="w-1/4 h-32 border-b-4 border-solid flex justify-center items-center font-bold text-6xl text-teal-800">
+                    회원 가입
+                </h1>
+                </div>
+                
+                <div class="w-full pb-[10vh]">
+                    <div class="flex flex-col items-center mt-[2vh]">
+                        <form>
+                            <input type="text" class="w-full px-6 py-3 mb-5 border border-slate-600 rounded-lg font-medium " placeholder="이메일" value=""/>
+                            <input type="password" class="w-full px-6 py-3  border border-slate-600 rounded-lg font-medium " placeholder="비밀번호" value=""/>
+                            <p class="text-[14px] mb-5 text-gray-400 pl-2">영문대소문자 및 숫자 기호 조합으로 8자 이내 입력 해주세요.</p>
+                            <input type="password" class="w-full px-6 py-3  border border-slate-600 rounded-lg font-medium " placeholder="비밀번호 확인" value=""/>
+                            <p class="text-[14px] mb-5 text-gray-400 pl-2">위 와 동일하게 입력해 주세요</p>
+                            <input type="text" class="w-full px-6 py-3 mb-5 border border-slate-600 rounded-lg font-medium " placeholder="닉네임" value=""/>
+
+                            <button  class=" bg-teal-600  hover:bg-teal-900 text-amber-100 text-base rounded-lg py-2.5 px-5 transition-colors w-full text-[19px]">
+                                <a href="login.html" class="flex justify-center items-center w-full h-full">로그인</a> 
+                            </button>
+                        </form>
                     </div>
                 </div>
-                <div class="item2">
-                    <div class="about-img">
-                        <img src="image/about/about 2.jpg">
-                    </div>
-                    <div class="about-text">
-                        <p>
-                            고급적인 뷔페
-                        </p>
-                        <p>
-                            실력이 검증된 쉐프들이
-                        </p>
-                        <p>
-                            최고의 식재료로 준비했습니다.
-                        </p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="about-img">
-                        <img src="image/about/about 3.jpg">
-                    </div>
-                    <div class="about-text">
-                        <p>
-                            자연 속에서 찾는 휴식
-                        </p>
-                        <p>
-                            자연이 보이는 곳에서 편안히
-                        </p>
-                        <p>
-                            마음과 몸을 맡겨 휴식을 취하세요.
-                        </p>
-                    </div>
-                </div>
-                <div class="item2">
-                    <div class="about-img">
-                        <img src="image/about/about 4.jpg">
-                    </div>
-                    <div class="about-text">
-                        <p>
-                            자연속으로
-                        </p>
-                        <p>
-                            자연과 한몸이 되어
-                        </p>
-                        <p>
-                            보면서 즐기던 자연을 직접 느끼세요.
-                        </p>
-                    </div>
-                </div>
+
+                
+                
             </div>
+                
+
+            
             <footer class="w-full h-52 bg-teal-900 flex justify-between items-center pl-20 pr-20 ">
                 <div class="f-logo">
                     <a href="index.html">

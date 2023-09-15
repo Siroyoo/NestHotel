@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keyword" content="HTML, meta, tag, element, reference">
+        <meta name="description" content="HTML meta tag page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css"/> <!-- css 리셋 -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+        <link href="tailwind.config.js" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+        <title>
+            Nest Hotel에 오신 것을 환영합니다.
+        </title>
+    </head>
+    <style>
+
+    </style>
+    <body>
+        <div class="box-border">
+            <header class="w-full h-52 grid grid-cols-4 bg-teal-900 sticky top-0 z-50">
+                <div class="logo h-28 px-12 pt-3 col-start-1 col-end-4">
+                    <a href="index.html" class="flex justify-start items-center no-underline ">
+                        <img src="image/logo.png" alt="NestHotle 로고" class="w-24 h-24 object-cover">
+                        <h1 class="text-5xl font-black text-yellow-100">Nest Hotel</h1>
+                    </a>
+                </div>
+                <div class="top-nav grid grid-cols-4 w-auto h-28 pt-2 col-start-4 col-end-5 text-center text-gray-400">
+                        <a href="login.html">
+                            <p>로그인</p>
+                        </a>           
+                        <a href="join.html">
+                            <p>회원가입</p>
+                        </a>                  
+                        <a href="mypage.html">
+                            <p>마이페이지</p>
+                        </a>
+                        <a href="info.html">
+                            <p>공지안내</p>
+                        </a>
+                </div>
+                <div class="main-nav grid grid-cols-5 col-start-1 col-end-5 h-24 gap-1 ">
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="about.html">
+                            호텔소개
+                        </a>
+                    </div>
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="room.html">
+                            객실
+                        </a>
+                    </div>
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="activity.html">
+                            시설 및 체험
+                        </a>
+                    </div>
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="reservation.html">
+                            예약하기
+                        </a>
+                    </div>
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="check-reserve.html" >
+                            <p>예약확인</p>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="bg-lime-50 pb-12">
+                <div class="w-full h-28 flex-col justify-center items-center">
+                    <img src="image/banner/banner 1.jpg" alt="로그인" class="object-cover w-full h-full">
+                </div>
+                <div class="flex w-full h-auto flex-col justify-center items-center pt-5  bg-lime-50 ">
+                    <h1 class="w-1/4 h-32 border-b-4 border-solid flex justify-center items-center font-bold text-6xl text-teal-800">
+                    로그인
+                </h1>
+                </div>
+                
+                <div class="w-full">
+                    <div class="flex flex-col items-center mt-[2vh]">
+                        <p class="w-[29rem] mb-2 text-[20px]">이메일 로그인</p>
+                        <form>
+                            <input type="text" class="w-full px-6 py-3 mb-5 border border-slate-600 rounded-lg font-medium " placeholder="Email" value=""/>
+                            <input type="password" class="w-full px-6 py-3  border border-slate-600 rounded-lg font-medium " placeholder="Password" value=""/>
+                            <p class="text-[14px] mb-5 text-gray-400 pl-2">영문대소문자 및 숫자 기호 조합으로 8자 이내 입력 해주세요.</p>
+                            <div class="mb-[0.125rem] block min-h-[1.5rem] pl-[2rem] pb-3">
+                                <input
+                                  class="relative float-left -ml-[1.5rem] mr-[6px] mt-[0.15rem] h-[1.125rem] w-[1.125rem] appearance-none rounded-[0.25rem] border-[0.125rem] border-solid border-neutral-300 outline-none before:pointer-events-none before:absolute before:h-[0.875rem] before:w-[0.875rem] before:scale-0 before:rounded-full before:bg-transparent before:opacity-0 before:shadow-[0px_0px_0px_13px_transparent] before:content-[''] checked:border-primary checked:bg-primary checked:before:opacity-[0.16] checked:after:absolute checked:after:-mt-px checked:after:ml-[0.25rem] checked:after:block checked:after:h-[0.8125rem] checked:after:w-[0.375rem] checked:after:rotate-45 checked:after:border-[0.125rem] checked:after:border-l-0 checked:after:border-t-0 checked:after:border-solid checked:after:border-white checked:after:bg-transparent checked:after:content-[''] hover:cursor-pointer hover:before:opacity-[0.04] hover:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:shadow-none focus:transition-[border-color_0.2s] focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-[0.875rem] focus:after:w-[0.875rem] focus:after:rounded-[0.125rem] focus:after:content-[''] checked:focus:before:scale-100 checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] checked:focus:after:-mt-px checked:focus:after:ml-[0.25rem] checked:focus:after:h-[0.8125rem] checked:focus:after:w-[0.375rem] checked:focus:after:rotate-45 checked:focus:after:rounded-none checked:focus:after:border-[0.125rem] checked:focus:after:border-l-0 checked:focus:after:border-t-0 checked:focus:after:border-solid checked:focus:after:border-white checked:focus:after:bg-transparent dark:border-neutral-600 dark:checked:border-primary dark:checked:bg-primary dark:focus:before:shadow-[0px_0px_0px_13px_rgba(255,255,255,0.4)] dark:checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca]"
+                                  type="checkbox"
+                                  value=""
+                                  id="checkboxDefault" />
+                                <label
+                                  class="inline-block pl-[0.15rem] hover:cursor-pointer"
+                                  for="checkboxDefault">
+                                  아이디 기억하기
+                                </label>
+                              </div>
+
+                            <button  class="bg-teal-600  hover:bg-teal-900 text-amber-100 text-base rounded-lg py-2.5 px-5 transition-colors w-full text-[19px]">
+                                <a href="index.html" class="flex justify-center items-center w-full h-full">로그인</a> 
+                            </button>
+                        </form>
+                       
+                        <p class="w-[29rem] mt-5 mb-2 text-[20px]">소셜 로그인</p>
+                        <button class="w-[460px] flex items-center mb-2 justify-center transition ease-in-out delay-50 px-3 py-2.5 space-x-2 bg-white border border-slate-600 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-600 focus:ring-opacity-50">
+                            <svg viewBox="0 0 48 48" width="24" height="24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Google-color</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Color-" transform="translate(-401.000000, -860.000000)"> <g id="Google" transform="translate(401.000000, 860.000000)"> <path d="M9.82727273,24 C9.82727273,22.4757333 10.0804318,21.0144 10.5322727,19.6437333 L2.62345455,13.6042667 C1.08206818,16.7338667 0.213636364,20.2602667 0.213636364,24 C0.213636364,27.7365333 1.081,31.2608 2.62025,34.3882667 L10.5247955,28.3370667 C10.0772273,26.9728 9.82727273,25.5168 9.82727273,24" id="Fill-1" fill="#FBBC05"> </path> <path d="M23.7136364,10.1333333 C27.025,10.1333333 30.0159091,11.3066667 32.3659091,13.2266667 L39.2022727,6.4 C35.0363636,2.77333333 29.6954545,0.533333333 23.7136364,0.533333333 C14.4268636,0.533333333 6.44540909,5.84426667 2.62345455,13.6042667 L10.5322727,19.6437333 C12.3545909,14.112 17.5491591,10.1333333 23.7136364,10.1333333" id="Fill-2" fill="#EB4335"> </path> <path d="M23.7136364,37.8666667 C17.5491591,37.8666667 12.3545909,33.888 10.5322727,28.3562667 L2.62345455,34.3946667 C6.44540909,42.1557333 14.4268636,47.4666667 23.7136364,47.4666667 C29.4455,47.4666667 34.9177955,45.4314667 39.0249545,41.6181333 L31.5177727,35.8144 C29.3995682,37.1488 26.7323182,37.8666667 23.7136364,37.8666667" id="Fill-3" fill="#34A853"> </path> <path d="M46.1454545,24 C46.1454545,22.6133333 45.9318182,21.12 45.6113636,19.7333333 L23.7136364,19.7333333 L23.7136364,28.8 L36.3181818,28.8 C35.6879545,31.8912 33.9724545,34.2677333 31.5177727,35.8144 L39.0249545,41.6181333 C43.3393409,37.6138667 46.1454545,31.6490667 46.1454545,24" id="Fill-4" fill="#4285F4"> </path> </g> </g> </g> </g></svg>
+                            <span class="text-gray-700 font-medium">Google로 로그인 하기</span>
+                        </button>
+
+                        <p class="text-center mt-3 text-[16px]">아직 회원이 아니신가요?
+                            <a href="join.html" class="text-gray-600">회원가입</a>
+                            하러가기
+                        </p>
+                        <p class="text-center mt-3 text-[16px]">비밀번호를 잊어버리셨나요?
+                            <a href="temp-password.html" class="text-gray-600">비밀번호</a>
+                            찾으러가기
+                        </p>
+
+                    </div>
+                </div>
+        </div>
+        <footer class="w-full h-52 bg-teal-900 flex justify-between items-center pl-20 pr-20 ">
+            <div class="f-logo">
+                <a href="index.html">
+                    <img src="image/logo.png" alt="푸터 로고" class="w-48 h-48 object-cover">
+                </a>
+            </div>
+            <div class="flex-col justify-center items-center text-white">
+                <p>상호명 : 네스트 호텔 | 대표자 유성민 | 사업자 번호 123-45-551006</p>
+                <p>통신판매업 제 2023-서울-1234 호</p>
+                <p>고객센터 : 010-0000-0000, project@gmail.com</p>
+                <p>주소 : 강원도 어느숲속안 어느 숲속</p>   
+                <p>제휴문의 : 070-0707-0707</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
