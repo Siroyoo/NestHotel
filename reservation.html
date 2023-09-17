@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keyword" content="HTML, meta, tag, element, reference">
+        <meta name="description" content="HTML meta tag page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css"/> <!-- css 리셋 -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+        <link href="tailwind.config.js" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+        <title>
+            Nest Hotel에 오신 것을 환영합니다.
+        </title>
+    </head>
+    <style>
+
+    </style>
+    <body>
+        <div class="box-border">
+            <header class="w-full h-52 grid grid-cols-4 bg-teal-900 sticky top-0 z-50">
+                <div class="logo h-28 px-12 pt-3 col-start-1 col-end-4">
+                    <a href="index.html" class="flex justify-start items-center no-underline ">
+                        <img src="image/logo.png" alt="NestHotle 로고" class="w-24 h-24 object-cover">
+                        <h1 class="text-5xl font-black text-yellow-100">Nest Hotel</h1>
+                    </a>
+                </div>
+                <div class="top-nav grid grid-cols-4 w-auto h-28 pt-2 col-start-4 col-end-5 text-center text-gray-400">
+                        <a href="login.html">
+                            <p>로그인</p>
+                        </a>           
+                        <a href="join.html">
+                            <p>회원가입</p>
+                        </a>                  
+                        <a href="mypage.html">
+                            <p>마이페이지</p>
+                        </a>
+                        <a href="info.html">
+                            <p>공지안내</p>
+                        </a>
+                </div>
+                <div class="main-nav grid grid-cols-5 col-start-1 col-end-5 h-24 gap-1 ">
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="about.html">
+                            호텔소개
+                        </a>
+                    </div>
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="room.html">
+                            객실
+                        </a>
+                    </div>
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="activity.html">
+                            시설 및 체험
+                        </a>
+                    </div>
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="reservation.html">
+                            예약하기
+                        </a>
+                    </div>
+                    <div class="pl-3 flex justify-center items-center text-xl text-white">
+                        <a href="check-reservation.html" >
+                            <p>예약확인</p>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="bg-lime-50">
+                <div class="w-full h-28 flex-col justify-center items-center">
+                    <img src="image/banner/banner 1.jpg" alt="회원가입" class="object-cover w-full h-full">
+                </div>
+                <div class="flex w-full h-auto flex-col justify-center items-center pt-5 pb-5 bg-lime-50 ">
+                    <h1 class="w-1/4 h-32 border-b-4 border-solid flex justify-center items-center font-bold text-6xl text-teal-800">
+                    회원 가입
+                </h1>
+                </div>
+                
+                <div class="w-full pb-[10vh]">
+                    <div class="flex flex-col items-center mt-[2vh]">
+                        <form>
+                            <input type="text" class="w-full px-6 py-3 mb-5 border border-slate-600 rounded-lg font-medium " placeholder="이메일" value=""/>
+                            <input type="password" class="w-full px-6 py-3  border border-slate-600 rounded-lg font-medium " placeholder="비밀번호" value=""/>
+                            <p class="text-[14px] mb-5 text-gray-400 pl-2">영문대소문자 및 숫자 기호 조합으로 8자 이내 입력 해주세요.</p>
+                            <input type="password" class="w-full px-6 py-3  border border-slate-600 rounded-lg font-medium " placeholder="비밀번호 확인" value=""/>
+                            <p class="text-[14px] mb-5 text-gray-400 pl-2">위 와 동일하게 입력해 주세요</p>
+                            <input type="text" class="w-full px-6 py-3 mb-5 border border-slate-600 rounded-lg font-medium " placeholder="닉네임" value=""/>
+
+                            <button  class=" bg-teal-600  hover:bg-teal-900 text-amber-100 text-base rounded-lg py-2.5 px-5 transition-colors w-full text-[19px]">
+                                <a href="login.html" class="flex justify-center items-center w-full h-full">로그인</a> 
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+                
+
+            
+            <footer class="w-full h-52 bg-teal-900 flex justify-between items-center pl-20 pr-20 ">
+                <div class="f-logo">
+                    <a href="index.html">
+                        <img src="image/logo.png" alt="푸터 로고" class="w-48 h-48 object-cover">
+                    </a>
+                </div>
+                <div class="flex-col justify-center items-center text-white">
+                    <p>상호명 : 네스트 호텔 | 대표자 유성민 | 사업자 번호 123-45-551006</p>
+                    <p>통신판매업 제 2023-서울-1234 호</p>
+                    <p>고객센터 : 010-0000-0000, project@gmail.com</p>
+                    <p>주소 : 강원도 어느숲속안 어느 숲속</p>   
+                    <p>제휴문의 : 070-0707-0707</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
