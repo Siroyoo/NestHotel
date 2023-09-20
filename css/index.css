@@ -126,16 +126,16 @@
     width: 150px;
 }
 .dot{
-    border: 5px solid darkslategrey;
+    border: 5px solid darkslategray;
     border-radius: 50%;
-    background-color: darkslategray;
+    background-color: white;
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
-.room-dot :nth-child(2),
-.room-dot :nth-child(3){
-    background-color: white;
+.dot-active
+{
+    background-color: darkslategray;
     /* border: 1px solid darkslategray; */
 }
 
@@ -203,5 +203,10 @@
     object-fit: cover;
 }
 .act-back{
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 20%;
+    height: 270px;
+    border-radius: 25px;
     background-color: rgba(47, 79, 79, 0.856);
 }
