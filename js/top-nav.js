@@ -14,7 +14,7 @@ const data = [
 ]
 
 function add(hrefValue, textValue){
-    const topNav = document.querySelector('#top-nav');
+    const topNav = document.querySelector('.top-nav');
     console.log(topNav);
     const login = document.createElement('a');
     login.href=hrefValue;
