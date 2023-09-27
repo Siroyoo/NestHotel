@@ -1,4 +1,4 @@
-const data = [
+const topNavdata = [
     {
         title : "login.html", text : "로그인"
     },
@@ -13,7 +13,7 @@ const data = [
     }
 ]
 
-function add(hrefValue, textValue){
+function topNavBar(hrefValue, textValue){
     const topNav = document.querySelector('.top-nav');
     console.log(topNav);
     const login = document.createElement('a');
@@ -22,15 +22,11 @@ function add(hrefValue, textValue){
     topNav.appendChild(login);
 }
 
-function add2() {
-    // add("login.html", "로그인")
-    // add("join.html", "회원가입")
-    // add("mypage.html", "마이페이지")
-    // add("info.html", "공지사항")
-    for(let i=0; i<data.length; i++){
-        console.log(data[i]);
-        add(data[i].title, data[i].text)
+function topNavCon() {
+    for(let i=0; i<topNavdata.length; i++){
+        console.log(topNavdata[i]);
+        topNavBar(topNavdata[i].title, topNavdata[i].text)
     }
 
 }
-add2();
+topNavCon();
